@@ -1,0 +1,29 @@
+.post-header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--seperator);
+}
+
+.post-header h1 {
+    margin-bottom: 0;
+}
+
+.post-header p {
+    margin-top: 0;
+}
+
+article img {
+    width: 70%;
+}
+
+article p {
+    margin-bottom: 0px;
+    /* Adjust as needed */
+}
+
+article ul {
+    margin-top: 1px;
+    /* Adjust as needed */
+    padding-left: 20px;
+    /* Adjust as needed to control indentation */
+}
