@@ -1,9 +1,9 @@
 :root {
     --bg-dark-color: #282828;
-    --text-dark-color: #ebdbb2;
+    --text-dark-color: #f1be9b;
     --text-dark-subtext-color: #8a8a8a;
     --text-highlight: #f895ea;
-    --seperator: #928374;
+    --seperator: #f1be9b;
 
     /* hidden light theme */
     --bg-light-color: #fff;
