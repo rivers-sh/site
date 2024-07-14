@@ -1,3 +1,4 @@
+/* General styles */
 .list-header {
     display: flex;
     align-items: center;
@@ -29,8 +30,40 @@
     display: flex;
     flex: 1 1 0%;
     justify-content: flex-end;
+    font-size: medium;
+    /* Make the date font size a bit bigger */
 }
 
 .post-info p {
     margin: 0%;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .post-info .post-title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .post-info .post-title p {
+        justify-content: flex-start;
+        margin-top: 0.5rem;
+    }
+
+    .post-info .post-title a {
+        font-size: medium;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .post-info .post-title p {
+        font-size: small;
+        /* Further adjust font size for very small screens */
+    }
+
+    .posts {
+        gap: 0.5rem;
+        /* Reduce gap between posts for small screens */
+    }
 }
