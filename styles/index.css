@@ -11,7 +11,7 @@
 }
 
 * {
-    font-family: jetbrains monospace, apple-system, system-ui, "Helvetica", "Arial", sans-serif;
+    font-family: Pretendard, apple-system, system-ui, "Helvetica", "Arial", sans-serif;
 }
 
 .nav {
@@ -70,34 +70,4 @@ a:hover {
 
 ul {
     padding: 1rem;
-}
-
-#oneko-container {
-    position: absolute;
-    pointer-events: none;
-}
-
-#oneko {
-    width: 50px;
-    /* Adjust the size as needed */
-}
-
-/* Add this to your /styles/main.css */
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-container h1 {
-    margin-right: 10px;
-    /* Adjust as necessary */
-}
-
-.profile-picture {
-    width: 150px;
-    /* Adjust as necessary */
-    height: 250px;
-    /* Adjust as necessary */
 }
