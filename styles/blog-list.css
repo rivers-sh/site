@@ -1,24 +1,19 @@
-.list-header {
-    display: flex;
-    align-items: center;
-}
-
-.list-header div {
-    display: flex;
-    flex: 1 1 0%;
-    justify-content: flex-end;
-    gap: 10px;
-}
-
 .posts {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
+.post-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
 .post-info .post-title {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .post-info .post-title a {
@@ -26,11 +21,22 @@
 }
 
 .post-info .post-title p {
-    display: flex;
-    flex: 1 1 0%;
-    justify-content: flex-end;
+    margin: 0px;
+    font-size: medium;
+    /* Adjust the size as desired */
 }
 
 .post-info p {
-    margin: 0%;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .post-info .post-title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .post-info .post-title p {
+        align-self: flex-end;
+    }
 }
