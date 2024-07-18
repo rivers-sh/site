@@ -14,8 +14,7 @@
 .posts {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    /* Increased gap between posts */
+    gap: 0.75rem;
 }
 
 .post-info .post-title {
@@ -32,10 +31,11 @@
     flex: 1 1 0%;
     justify-content: flex-end;
     font-size: medium;
+    /* Make the date font size a bit bigger */
 }
 
 .post-info p {
-    margin: 0;
+    margin: 0%;
 }
 
 /* Media queries for responsiveness */
@@ -52,16 +52,18 @@
 
     .post-info .post-title a {
         font-size: medium;
+        /* Adjust font size for smaller screens */
     }
 }
 
 @media (max-width: 480px) {
     .post-info .post-title p {
         font-size: small;
+        /* Further adjust font size for very small screens */
     }
 
     .posts {
-        gap: 1.5rem;
-        /* Increased gap for smaller screens */
+        gap: 0.5rem;
+        /* Reduce gap between posts for small screens */
     }
 }
