@@ -1,0 +1,19 @@
+.USDoD-post {
+    width: 680px;
+    height: auto;
+}
+
+.kernelware-post {
+    width: 490px;
+    height: auto;
+}
+
+figure {
+    margin: 8px;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #555;
+}
